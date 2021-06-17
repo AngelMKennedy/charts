@@ -6,7 +6,7 @@ global:
   postgresql:
     postgresqlDatabase: "xnat"
     postgresqlUsername: "xnat"
-    #postgresqlPassword: ""
+    postgresqlPassword: "xnat"
     #servicePort: ""
 
 # Set to false when using an external database, configure either postgresqlExternalName or postgresqlExternalIPs
